@@ -3,11 +3,14 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from './Home'
 import About from './About'
 import Contacts from './Contacts'
+import Login from './Login'
+
 import './Navigation.css'
 
 function Navigation() {
 
     return (
+        <>
         <Router>
             <nav className='nav-bar'>
                 <ul className='list-reset nav-bar-list'>
@@ -21,8 +24,11 @@ function Navigation() {
                 <Route path='/' element={<Home/>}/>
                 <Route path='/about' element={<About/>}/>
                 <Route path='/contacts' element={<Contacts/>}/>
+                <Route path='/login' element={<Login/>}/>
             </Routes>
-        </Router>        
+        </Router>
+        </>
+              
     )
     
 }
