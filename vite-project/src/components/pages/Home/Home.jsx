@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import ReactHookForm from "../ReactHookForm"
+import ReactHookForm from "../../ReactHookForm"
 
 import './Home.css'
 

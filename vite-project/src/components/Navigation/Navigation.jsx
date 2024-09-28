@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 
-import Home from './Home'
-import About from './About'
-import Contacts from './Contacts'
-import Login from './Login'
+import Home from '../pages/Home/Home'
+import About from '../pages/About'
+import Contacts from '../pages/Contacts'
+import Login from '../pages/Login/Login'
 
 import './Navigation.css'
 

@@ -1,6 +1,6 @@
 import { useForm } from 'react-hook-form'
 
-import './ReactHookForm/ReactHookForm.css'
+import './ReactHookForm.css'
 
 function ReactHookForm() {
 
